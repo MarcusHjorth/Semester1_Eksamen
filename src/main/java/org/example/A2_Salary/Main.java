@@ -1,4 +1,4 @@
-package org.example.Two_Salary;
+package org.example.A2_Salary;
 
 import java.util.ArrayList;
 

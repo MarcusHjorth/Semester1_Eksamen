@@ -1,4 +1,4 @@
-package org.example.five_TwoTypesOfPlayers;
+package org.example.A5_TwoTypesOfPlayers;
 
 
 import java.util.Scanner;

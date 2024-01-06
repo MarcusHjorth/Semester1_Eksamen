@@ -1,4 +1,4 @@
-package org.example.One_InteraktivQuiz;
+package org.example.A1_InteraktivQuiz;
 
 import java.util.ArrayList;
 import java.util.Collections;

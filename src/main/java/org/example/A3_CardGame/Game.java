@@ -1,4 +1,4 @@
-package org.example.Three_CardGame;
+package org.example.A3_CardGame;
 
 public class Game {
 }

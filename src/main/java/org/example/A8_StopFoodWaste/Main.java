@@ -1,4 +1,4 @@
-package org.example.A8_StopFoodWaist;
+package org.example.A8_StopFoodWaste;
 
 public class Main {
     public static void main(String[] args) {

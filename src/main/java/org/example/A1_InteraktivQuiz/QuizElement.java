@@ -1,4 +1,4 @@
-package org.example.One_InteraktivQuiz;
+package org.example.A1_InteraktivQuiz;
 
 public class QuizElement {
     protected String question;

@@ -1,4 +1,4 @@
-package org.example.Four_DrawWithForLoop;
+package org.example.A4_DrawWithForLoop;
 
 public class Main {
     public static void main(String[] args) {

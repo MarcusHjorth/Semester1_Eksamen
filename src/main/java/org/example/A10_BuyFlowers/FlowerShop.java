@@ -35,9 +35,10 @@ public class FlowerShop {
         for (int i = 1 ; i <= 3 ; i++){
             System.out.println("Which flower would you like for your " + i + ".");
             String input = scan.nextLine();
-            System.out.println(flowers.indexOf(input));
 
-            System.out.println("Total: " + checkFlowerIndex(input));
+            System.out.println(flowers.indexOf(input.toLowerCase()));
+
+            System.out.println("Total: " + checkFlowerIndex(input.toLowerCase()));
             System.out.println();
         }
 
@@ -46,13 +47,13 @@ public class FlowerShop {
 
         if(input.equalsIgnoreCase("Y")){
             total += 50;
-        } // --------------------------------- hvis ekstra tid finpus så den siger fejl ved andre indtastninger
+        } // --------------------------- hvis ekstra tid finpus så den siger fejl ved andre indtastninger
         System.out.println("Total: " + total);
         System.out.println();
     }
 
     public int checkFlowerIndex(String input){
-        if (flowers.indexOf(input) + 1 <= 4 ){
+        if (flowers.indexOf(input) + 1 <= 4 && flowers.indexOf(input) + 1 > 0){
             total += 20;
         } else if (flowers.indexOf(input) + 1 > 4 && flowers.indexOf(input) + 1 <= 7 ) {
             total += 40;

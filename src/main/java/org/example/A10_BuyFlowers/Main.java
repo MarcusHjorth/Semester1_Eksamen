@@ -9,13 +9,16 @@ public class Main {
 
 
         Scanner scan = new Scanner(System.in);
-        String input = scan.nextLine();
-        System.out.println("Would you like to continue, press any button, if not press 'Q' ");
-        System.out.println();
 
-        while (!input.equalsIgnoreCase("q")){
+        String input;
+
+        do {
             flowerShop.displayFlowers();
             flowerShop.runDialog();
-       }
+
+            System.out.println("Would you like to continue, press any button, if not press 'Q' ");
+            input = scan.nextLine();
+            System.out.println();
+       }while (!input.equalsIgnoreCase("q"));
     }
 }

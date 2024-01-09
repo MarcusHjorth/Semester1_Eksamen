@@ -11,6 +11,8 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Name: " + name + "Price: " + price;
+        String RESET = "\u001B[0m";
+        String GREEN = "\u001B[32m";
+        return "Name: " + GREEN + name + RESET + " Price: " + GREEN + price + RESET;
     }
 }
